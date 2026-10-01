@@ -1,0 +1,8 @@
+# Ignore everything in target
+target/*
+
+# But keep the target folder itself
+!target/
+
+# Allow only JAR files
+!target/*.jar
